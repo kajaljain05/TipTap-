@@ -22,3 +22,34 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Node.js dependencies
+node_modules/
+
+# Build directory
+build/
+
+# Environment files (don't want to commit sensitive information)
+.env
+
+# Logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# Vite cache
+.vite/
+
+# IDE-specific files (VSCode, Sublime, etc.)
+.vscode/
+.idea/
+
+# npm package lock files (if needed, can be specific for some projects)
+package-lock.json
+yarn.lock
+
+# Testing cache
+coverage/
+
+# Ignore the .gitignore file itself (optional)
+.gitignore
