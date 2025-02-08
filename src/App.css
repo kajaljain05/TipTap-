@@ -1,0 +1,15 @@
+/* src/App.css */
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item[checked] {
+  text-decoration: line-through;
+  color: gray;
+}
